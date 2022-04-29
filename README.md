@@ -1,4 +1,4 @@
-# LexicalSemanticOrientation
+# Lexical Semantic Orientation
 calculating lexical semantic orientation following Turney &amp; Littman (2003), using word2vec &amp; PPMI.
 
 ## 代码说明
@@ -9,7 +9,7 @@ calculating lexical semantic orientation following Turney &amp; Littman (2003), 
 
 与 Turney and Littman (2003) 不同的是，余弦相似度使用的词向量由 word2vec 计算得来，而非 LSA (latent semantic analysis)。此外，使用了 PPMI，而非原文的PMI。
 
- Turney and Littman (2003) 对语义倾向的抽象定义由下式给出：
+Turney and Littman (2003) 对语义倾向的抽象定义由下式给出：
 
 $$
 SO\_A (word) = \sum_{pword\in P}A(word,pword)-\sum_{nword\in N}A(word,nword) \tag{1}
